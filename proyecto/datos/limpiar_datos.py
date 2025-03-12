@@ -11,5 +11,6 @@ def simular_datos():
         'B': np.random.normal(5, 2, 100),
         'C': np.random.normal(-3, 1.5, 100)
     }
+    
     df = pd.DataFrame(data)
     return df
