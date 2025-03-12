@@ -10,7 +10,7 @@ def graficar_resultados(df):
     plt.figure(figsize=(10, 6))
     for column in df.columns:
         plt.hist(df[column], bins=15, alpha=0.5, label=column)
-    plt.title('Distribución de Datos Simulados')
+    plt.title('Datos Simulados')
     plt.xlabel('Valor')
     plt.ylabel('Frecuencia')
     plt.legend()
