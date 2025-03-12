@@ -1,0 +1,9 @@
+name: proyecto_investigacion  # Nombre del entorno
+channels:
+  - defaults
+dependencies:
+  - python=3.9  # Versión de Python
+  - numpy       # Biblioteca para cálculos numéricos
+  - pandas      # Biblioteca para manipulación de datos
+  - matplotlib  # Biblioteca para graficar
+  - pip         # Gestor de paquetes de Python
