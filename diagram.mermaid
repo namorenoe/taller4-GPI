@@ -1,0 +1,32 @@
+graph TD
+    A[Observación] --> B[Datos Crudos]
+    B --> C[Simulación]
+    C --> D[Código]
+
+    subgraph "Etapa I: Entrada de Datos"
+        B
+        C
+        D
+    end
+
+    D --> E[Limpieza de Datos]
+    E --> F[Procesamiento de Datos]
+    F --> G[Código]
+
+    subgraph "Etapa II: Procesamiento de Datos"
+        E
+        F
+        G
+    end
+
+    G --> H[Análisis de Datos]
+    H --> I[Resultados]
+    I --> J[Código]
+
+    subgraph "Etapa III: Análisis de Datos"
+        H
+        I
+        J
+    end
+
+    J --> K[Output]
