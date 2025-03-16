@@ -8,7 +8,7 @@ if not os.path.exists('resultados'):
     os.makedirs('resultados')
 
 # Simular datos
-df = simular_datos()
+df = simular_datos("10.5281/zenodo.15033436")
 
 # Analizar datos
 analisis = analizar_datos(df)
